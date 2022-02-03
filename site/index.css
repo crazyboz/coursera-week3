@@ -1,0 +1,36 @@
+header{
+	background-color: gray;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.main{
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+nav div{
+	font-size: 2em;
+}
+
+#button{
+	
+	display: none;
+
+}
+
+.section{
+	background-color: grey;
+}
+
+@media(max-width: 768px){
+	#button{
+		height: 1.5em;
+		width: 1.5em;
+		background-image:url("icon.png");
+		display: inline-block;
+		border-style: none;
+	}
+}
